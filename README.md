@@ -1,4 +1,22 @@
 Lunch Tray Practice Problem - Starter Code
 ==================================
 
-Starter code for the Jetpack Compose Navigation practice problems
+Выполнил: Устинов Егор, ПИ-251
+
+<img width="351" height="553" alt="Снимок экрана 2026-11-20 121522" src="https://github.com/user-attachments/assets/e3b84445-0d01-42a1-8b46-cddee5029ab2" />
+
+Что было сделано в лабораторной работе №7:
+
+Подключил библиотеку Jetpack Navigation Compose.
+
+Создал маршруты  для 5 экранов, привязав к ним строковые ресурсы заголовков.
+
+Настроил контроллер навигации и граф переходов.
+
+Реализовал TopAppBar: динамический заголовок текущего экрана и кнопка «Назад».
+
+Настроил переходы по кнопкам (Next, Start Order, Cancel, Submit) по схеме.
+
+Реализовал очистку стека (popUpTo) при возврате на главный экран.
+
+Передал OrderViewModel через навигацию для сохранения данных заказа между экранами.
